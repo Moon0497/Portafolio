@@ -1,0 +1,39 @@
+/*footeer*/
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D5B4B4;
+    
+}
+
+.footer__rodape {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #464646;
+  margin-left: 45%;
+}
+
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+  /*Footer*/
+  .footer__rodape {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 25%;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+  /*Footer*/
+  .footer__rodape {
+    font-size: 0.8rem;
+    margin-left: 25%;
+    margin-top: auto;
+  }
+}

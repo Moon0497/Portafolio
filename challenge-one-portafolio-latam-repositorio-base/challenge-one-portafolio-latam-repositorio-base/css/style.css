@@ -1,0 +1,38 @@
+@import url(reset.css);
+
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #EDEDED;
+   --cor-de-link: #464646;
+   --warning-color: #df2525;
+   --secondary-color: #d6eaff;
+   ;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    position: relative;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ol, ul,li {
+    color: var(--cor-de-link);
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
